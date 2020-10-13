@@ -1,8 +1,8 @@
 <template>
 <div class="block">
-    <div class="block-name">
-        <a :href="blockUrl" target="_blank">{{ block }} Block</a>
-    </div>
+    <a class="block-url" :href="blockUrl" target="_blank">
+        <div class="block-name">{{ block }} Block</div>
+    </a>
     <div class="sets">
         <SetCard v-for="set in sets" :key="set" :set="set" />
     </div>
@@ -44,16 +44,15 @@ export default {
     font-weight: 600;
     font-size: 120%;
     padding-bottom: 0.5em;
+}
+
+.block-url {
     color: var(--color-8);
-}
-
-.block-name:hover {
-    color: var(--color-10);
-}
-
-.block-name a {
     text-decoration: none;
-    color: unset;
+}
+
+.block-url:hover {
+    color: var(--color-10);
 }
 
 .block .sets {

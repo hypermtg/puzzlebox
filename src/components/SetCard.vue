@@ -1,6 +1,6 @@
 <template>
 <div class="set">
-    <a :href="setUrl" target="_blank">
+    <a class="set-link" :href="setUrl" target="_blank">
         <i :class="[
             'set-symbol',
             'ss ss-4x ss-fw',
@@ -36,12 +36,12 @@ export default {
     text-align: center;
 }
 
-.set * {
+.set-link {
+    color: var(--color-8);
     text-decoration: none;
-    color: unset;
 }
 
-.set:hover * {
+.set-link:hover {
     color: var(--color-10);
 }
 
