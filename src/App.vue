@@ -3,9 +3,9 @@
     <h1>Teferi's Puzzle Box</h1>
   </div>
   <div id="intro" class="section">
-    <div>Teferi's Puzzle Box is a Bring-Your-Own-Standard constructed format.</div>
+    <div>Teferi's Puzzle Box is a Build-Your-Own-Standard constructed format.</div>
     <ul>
-      <li>The current Legacy banned list is in effect, along with current day rules.</li>
+      <li>The current Legacy banned list is in effect, along with present day rules.</li>
       <li>Decks are 60 cards minimum, with a 15 card sideboard.</li>
       <li>Decks are constructed using a choice of <b>1 Core Set</b> between 6th Edition and 10th Edition.</li>
       <li>Decks are constructed using a choice of <b>2 Blocks</b> between Ice Age and Time Spiral.</li>
