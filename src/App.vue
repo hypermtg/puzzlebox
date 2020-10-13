@@ -7,8 +7,7 @@
     <ul class="rules">
       <li>The current <b>Legacy banned list</b> is in effect, along with present day rules.</li>
       <li>Decks are <b>60 cards</b> at minimum, with a 15 card sideboard.</li>
-      <li>Decks are constructed using a choice of <b>1 Core Set</b> between 6th Edition and 10th Edition.</li>
-      <li>Decks are constructed using a choice of <b>2 Blocks</b> between Ice Age Block and Time Spiral Block.</li>
+      <li>Decks are constructed using a choice of <b>1 Core Set</b> (between 6th Edition and 10th Edition) and <b>2 Blocks</b> (between Ice Age Block and Time Spiral Block).</li>
       <li>Ice Age Block includes Coldsnap, but does not include Homelands.</li>
       <li>Time Spiral Block includes only the cards from the main set and does not include Timeshifted cards.</li>
     </ul>
