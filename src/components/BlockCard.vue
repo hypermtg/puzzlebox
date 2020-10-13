@@ -24,7 +24,7 @@ export default {
     data() {
         return {
             sets: blocks[this.block],
-            blockUrl: `https://scryfall.com/search?q=${blocks[this.block].map(e => `set:${e}`).join(' or ')}`,
+            blockUrl: `https://scryfall.com/search?q=(${blocks[this.block].map(e => `set:${e}`).join(' or ')})`,
         }
     }
 }
