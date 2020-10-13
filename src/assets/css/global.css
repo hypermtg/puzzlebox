@@ -1,0 +1,31 @@
+:root {
+    --color-0: #2E3440;
+    --color-1: #3B4252;
+    --color-2: #434C5E;
+    --color-3: #4C566A;
+
+    --color-4: #D8DEE9;
+    --color-5: #E5E9F0;
+    --color-6: #ECEFF4;
+
+    --color-7: #8FBCBB;
+    --color-8: #88C0D0;
+    --color-9: #81A1C1;
+    --color-10: #5E81AC;
+}
+
+:root {
+    --color-0: #ECEFF4;
+    --color-1: #D8DEE9;
+    --color-2: #D8DEE9;
+    --color-3: #D8DEE9;
+
+    --color-4: #2E3440;
+    --color-5: #2E3440;
+    --color-6: #2E3440;
+
+    --color-7: #434C5E;
+    --color-8: #3B4252;
+    --color-9: #3B4252;
+    --color-10: #88C0D0;
+}

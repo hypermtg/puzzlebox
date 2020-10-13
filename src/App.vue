@@ -4,13 +4,13 @@
   </div>
   <div id="intro" class="section">
     <div>Teferi's Puzzle Box is a Build-Your-Own-Standard constructed format.</div>
-    <ul>
-      <li>The current Legacy banned list is in effect, along with present day rules.</li>
-      <li>Decks are 60 cards minimum, with a 15 card sideboard.</li>
+    <ul class="rules">
+      <li>The current <b>Legacy banned list</b> is in effect, along with present day rules.</li>
+      <li>Decks are <b>60 cards</b> at minimum, with a 15 card sideboard.</li>
       <li>Decks are constructed using a choice of <b>1 Core Set</b> between 6th Edition and 10th Edition.</li>
-      <li>Decks are constructed using a choice of <b>2 Blocks</b> between Ice Age and Time Spiral.</li>
-      <li>Ice Age Block includes Coldsnap, but not Homelands.</li>
-      <li>Time Spiral Block is only the cards from the main set and does not include Timeshifted cards.</li>
+      <li>Decks are constructed using a choice of <b>2 Blocks</b> between Ice Age Block and Time Spiral Block.</li>
+      <li>Ice Age Block includes Coldsnap, but does not include Homelands.</li>
+      <li>Time Spiral Block includes only the cards from the main set and does not include Timeshifted cards.</li>
     </ul>
   </div>
   <div id="core" class="section">
@@ -32,7 +32,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import BlockCard from './components/BlockCard.vue'
 import SetCard from './components/SetCard.vue'
 import { blocks, core } from './shared/format.js'
@@ -40,7 +39,6 @@ import { blocks, core } from './shared/format.js'
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
     BlockCard,
     SetCard
   },
@@ -54,6 +52,10 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: var(--color-0);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -63,6 +65,13 @@ export default {
   padding: 0 0.5em;
   margin: 0 auto;
   max-width: 1200px;
+
+  color: var(--color-4);
+}
+
+#header {
+  color: var(--color-6);
+  font: 'Sans Serif';
 }
 
 .section {
@@ -75,7 +84,11 @@ export default {
 
 .section .subtitle {
   font-weight: 200;
-  color: grey;
+  color: var(--color-7);
+}
+
+.rules {
+  color: var(--color-4);
 }
 
 .set-list {

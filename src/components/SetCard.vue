@@ -42,7 +42,7 @@ export default {
 }
 
 .set:hover * {
-    color: grey;
+    color: var(--color-10);
 }
 
 .set-symbol {

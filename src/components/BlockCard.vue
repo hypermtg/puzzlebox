@@ -33,20 +33,22 @@ export default {
 <style>
 .block {
     width: auto;
-    border: 1px solid black;
+    border: 1px solid var(--color-9);
     border-radius: 25px;
     padding: 1em;
     text-align: center;
+    background: var(--color-1);
 }
 
 .block-name {
     font-weight: 600;
     font-size: 120%;
     padding-bottom: 0.5em;
+    color: var(--color-8);
 }
 
 .block-name:hover {
-    color: grey;
+    color: var(--color-10);
 }
 
 .block-name a {
