@@ -10,6 +10,7 @@
       <li>Decks are constructed using a choice of <b>1 Core Set</b> (between 6th Edition and 10th Edition) and <b>2 Blocks</b> (between Ice Age Block and Time Spiral Block).</li>
       <li>Ice Age Block includes Coldsnap, but does not include Homelands.</li>
       <li>Time Spiral Block includes only the cards from the main set and does not include Timeshifted cards.</li>
+      <li>Reprints welcome; no one <i>really</i> wants to acquire 6th Edition stuff.</li>
     </ul>
   </div>
   <div id="core" class="section">
